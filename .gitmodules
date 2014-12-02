@@ -1,3 +1,6 @@
 [submodule "teammate-repos/bioinformatics"]
 	path = teammate-repos/bioinformatics
 	url = https://github.com/johnlees/bioinformatics
+[submodule "data-munging/PyVCF"]
+	path = data-munging/PyVCF
+	url = https://github.com/jamescasbon/PyVCF.git
