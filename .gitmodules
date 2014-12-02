@@ -1,0 +1,3 @@
+[submodule "teammate-repos/bioinformatics"]
+	path = teammate-repos/bioinformatics
+	url = https://github.com/johnlees/bioinformatics
