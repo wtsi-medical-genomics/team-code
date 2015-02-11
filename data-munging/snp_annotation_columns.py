@@ -87,7 +87,7 @@ def check_snp_in_annotation(annot_dir, snp_file_loc, result_file_loc):
     result_file.write('{}\t{}\n'.format(snp_lines[0].strip(), file_name_header))
    
     # Go through each line of the snp_file and check against the annotion numpy arrays
-    for snp_line in snp_lines[1:5]: 
+    for snp_line in snp_lines[1:]: 
         snp_chrom, snp_bp = parse_snp_line(snp_line)
         chrom_match = np.core.defchararray.equal(snp_chrom, annot_chrom)
         start_match = snp_bp >= annot_start
