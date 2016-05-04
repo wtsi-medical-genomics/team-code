@@ -1,4 +1,10 @@
 #!/usr/bin/env python
+"""
+Retrieve allele frequencies using ensembl's RESTful API.
+
+Author: Daniel Rice
+"""
+
 import requests, sys
 
 
