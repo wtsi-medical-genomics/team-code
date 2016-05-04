@@ -36,7 +36,7 @@ def bases_look_up(locations_file, radius):
         header = i.readline()
         o.write(header.strip() + '\tseq\n')
         for line in i:
-            tokens = line.split('\t')
+            tokens = line.split()
             if len(tokens) != 4:
                 print 'Skipping because #tokens != 4', line
                 continue
